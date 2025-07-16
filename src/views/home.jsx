@@ -73,12 +73,10 @@ const Home = () => {
   });
 
   const phrases = [
+    "Electrical Engineering Student ",
     "a Full Stack Developer ",
-    "an Independent Researcher ",
-    "a Mobile App Developer ",
     "a Machine Learning Enthusiast ",
     "a Musician ",
-    "a Music Producer ",
   ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
@@ -170,12 +168,11 @@ const Home = () => {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            Hi! I’m Vishagar, an undergraduate student pursuing Electronic and
-            Telecommunication Engineering at the University of Moratuwa, Sri
+            Hi! I’m Chathura Jayasinghe, an undergraduate student pursuing Electrical Engineering at the University of Moratuwa, Sri
             Lanka. As a Dean’s List achiever, I thrive at the intersection of
             research and practical innovation, specializing in Computer Vision,
             Machine Learning, Software Engineering, and Mathematics, leveraging
-            state of the art technologies
+            state of the art technologies.
           </p>
 
           <p
@@ -186,10 +183,10 @@ const Home = () => {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            I believe the universe conspires to reward consistent effort.
+            {/* I believe the universe conspires to reward consistent effort.
             Whether hiking mountains, pre-planning workflows, or chasing
             deadlines, I balance curiosity with discipline. Let’s connect and
-            explore how algorithms—or acoustic melodies—can shape the future!
+            explore how algorithms—or acoustic melodies—can shape the future! */}
           </p>
           <div className="flex flex-col md:flex-row justify-between pt-6 space-y-6 md:space-y-0 md:space-x-12">
             {/* Socials Section */}
@@ -204,35 +201,35 @@ const Home = () => {
               <p className="text-rose-500 mb-4">FIND ME IN</p>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/vgr20"
+                  href="https://github.com/Chathura-Jayasinghe"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SocialIcon icon={<FaGithub />} />
                 </a>
-                <a
+                {/* <a
                   href="https://scholar.google.com/citations?user=epa4RPoAAAAJ&hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SocialIcon icon={<FaGoogleScholar />} />
-                </a>
+                </a> */}
                 <a
-                  href="https://www.linkedin.com/in/vishagar-arunan-97a9b0283/"
+                  href="https://www.linkedin.com/in/chathura-jayasinghe-22493621a/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SocialIcon icon={<FaLinkedinIn />} />
                 </a>
-                <a
+                {/* <a
                   href="https://medium.com/@vgr0876"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SocialIcon icon={<FaMedium />} />
-                </a>
+                </a> */}
                 <a
-                  href="mailto:vgr0876@gmail.com"
+                  href="mailto:chathurajayasinghe04@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
