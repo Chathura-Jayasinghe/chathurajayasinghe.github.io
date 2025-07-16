@@ -62,7 +62,7 @@ export default function Contact() {
             {/* Right side - Contact Details */}
             <div className="w-full md:w-2/3 p-4 md:p-6 bg-neutral-800">
               <h3 className="text-xl text-center font-bold text-white mb-3">
-                Vishagar Arunan
+                Chathura Jayasinghe
               </h3>
 
               <div className="space-y-3 text-white">
@@ -81,7 +81,7 @@ export default function Contact() {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  <span>vgr0876@gmail.com</span>
+                  <span>chathurajayasinghe04@gmail.com</span>
                 </div>
 
                 <div className="flex justify-center items-center">
@@ -99,7 +99,7 @@ export default function Contact() {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  <span>+94 (76) 606-2499</span>
+                  <span>+94 (70) 493-4655</span>
                 </div>
 
                 <div className="flex justify-center items-center">
@@ -123,12 +123,12 @@ export default function Contact() {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  <span>Trincomalee, Sri Lanka</span>
+                  <span>Kandy, Sri Lanka</span>
                 </div>
 
                 <div className="pt-4 flex animate-pulse flex-wrap justify-center gap-3">
                   <a
-                    href="https://github.com/vgr20"
+                    href="https://github.com/Chathura-Jayasinghe"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center bg-zinc-900 shadow-md shadow-teal-300 hover:scale-105 px-3 py-1 rounded-md"
@@ -145,7 +145,7 @@ export default function Contact() {
                   </a>
 
                   <a
-                    href="https://www.linkedin.com/in/vishagar-arunan-97a9b0283/"
+                    href="https://www.linkedin.com/in/chathura-jayasinghe-22493621a/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center bg-zinc-900 shadow-md shadow-teal-300 hover:scale-105 px-3 py-1 rounded-md"
@@ -160,7 +160,7 @@ export default function Contact() {
                     </svg>
                     <span>LinkedIn</span>
                   </a>
-                  <a
+                  {/* <a
                     href="https://scholar.google.com/citations?user=epa4RPoAAAAJ&hl=en"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -175,8 +175,8 @@ export default function Contact() {
                       <path d="M12 2L1 9l11 7 9-5.5V17h2V9L12 2z" />
                     </svg>
                     <span>Google Scholar</span>
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href="https://medium.com/@vgr0876"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -191,7 +191,7 @@ export default function Contact() {
                       <path d="M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z" />
                     </svg>
                     <span>Medium</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

@@ -136,7 +136,7 @@ const Home = () => {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            A LITTLE ABOUT ME
+            ABOUT ME
           </p>
 
           <h1
@@ -147,7 +147,7 @@ const Home = () => {
                 : "opacity-0 -translate-x-10"
             }`}
           >
-            Hi, I'm <span className="text-teal-500">Vishagar Arunan</span>
+            Hi, I'm <span className="text-teal-500">Chathura Jayasinghe</span>
           </h1>
 
           <h2

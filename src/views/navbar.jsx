@@ -37,7 +37,7 @@ const Navbar = () => {
       <TypingText
         phrases={[
           "Hey there...!!!",
-          "Thanks for stopping by — I'm Vishagar...",
+          "Thanks for stopping by — I'm Chathura...",
           "Welcome to my digital space!!!",
           "Curious minds make great company...",
           "Scroll on to discover what I create, build, and believe in...",

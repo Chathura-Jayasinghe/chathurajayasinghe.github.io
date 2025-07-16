@@ -42,30 +42,29 @@ export default function ResumeSection() {
     {
       id: 1,
       degree: "BSc Engineering Honours",
-      institution: "University of Moratuwa (2021 - 2025)",
-      score: "3.90/4",
+      institution: "University of Moratuwa (2022 - 2026)",
+      score: "3.6/4",
       description:
         "Coursework: Deep Learning for Vision, Machine Vision, Pattern Recognition, Modular Software Development, Networking and Programming Fundamentals.",
-      years: "2021 - 2025",
+      years: "2022 - 2026",
     },
     {
       id: 2,
       degree: "G.C.E. Advanced Level",
-      institution: "T/R.K.M. Sri Koneswara Hindu College (2006 - 2019)",
-      score: "Ranked 125th islandwide",
+      institution: "Dharmaraja College Kandy",
+      score: "Ranked 238th islandwide",
       description:
-        " Best Results at GCE A/L Examination 2019 in Physical Science Stream 3A's (Combined Mathematics, Physics, Chemistry) Trincomalee District 2nd, Island 125th, Z-score:- 2.6116",
-      years: "2001 - 2005",
+        " Best Results at GCE A/L Examination 2020 in Physical Science Stream 3A's (Combined Mathematics, Physics, Chemistry) Kandy District 18th, Island 238th, Z-score:- 2.4191",
     },
-    {
-      id: 3,
-      degree: "G.C.E. Ordinary Level",
-      institution: "T/R.K.M. Sri Koneswara Hindu College (2006 - 2019)",
-      score: "(9A's)",
-      description:
-        "Best Results at GCE O/L Examination 2016 9A's (Tamil, English, Mathematics, Science, Religion, History, Business and Accounting Studies, English Literature, ICT)",
-      years: "2001 - 2005",
-    },
+    // {
+    //   id: 3,
+    //   degree: "G.C.E. Ordinary Level",
+    //   institution: "T/R.K.M. Sri Koneswara Hindu College (2006 - 2019)",
+    //   score: "(9A's)",
+    //   description:
+    //     "Best Results at GCE O/L Examination 2016 9A's (Tamil, English, Mathematics, Science, Religion, History, Business and Accounting Studies, English Literature, ICT)",
+    //   years: "2001 - 2005",
+    // },
   ];
 
   const experienceData = [
