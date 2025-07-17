@@ -52,7 +52,7 @@ export default function Contact() {
             <div className="w-full md:w-1/3 p-2 border-e-1 border-zinc-600 flex items-center justify-center">
               <div className="w-32 h-32 md:w-52 md:h-52 rounded-full overflow-hidden border-2 border-teal-500">
                 <img
-                  src="/profile/pic_1.jpeg"
+                  src="/profile/pic_1.jpg"
                   alt="Your Profile"
                   className="w-full h-full object-cover"
                 />

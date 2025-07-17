@@ -56,107 +56,97 @@ export default function ResumeSection() {
       description:
         " Best Results at GCE A/L Examination 2020 in Physical Science Stream 3A's (Combined Mathematics, Physics, Chemistry) Kandy District 18th, Island 238th, Z-score:- 2.4191",
     },
-    // {
-    //   id: 3,
-    //   degree: "G.C.E. Ordinary Level",
-    //   institution: "T/R.K.M. Sri Koneswara Hindu College (2006 - 2019)",
-    //   score: "(9A's)",
-    //   description:
-    //     "Best Results at GCE O/L Examination 2016 9A's (Tamil, English, Mathematics, Science, Religion, History, Business and Accounting Studies, English Literature, ICT)",
-    //   years: "2001 - 2005",
-    // },
+    {
+      id: 3,
+      degree: "G.C.E. Ordinary Level",
+      institution: "Dharmaraja College Kandy",
+      score: "(9A's)",
+      description:
+        "Best Results at GCE O/L Examination 2017 9A's (Sinhala, English, Mathematics, Science, Religion, History, Business and Accounting Studies, Drama, Physical & Health Education)",
+    },
   ];
 
   const experienceData = [
     {
       id: 1,
-      position: "Research Engineering Intern",
-      company: "Fetchseed - (Present)",
+      position: "AI & ML Engineering Intern",
+      company: "2024 - 2025",
       location: "Sri Lanka",
       description:
-        "Tailoring state-of-the-art 3D reconstruction models to deliver immersive and interactive user experiences through cutting-edge extended reality (XR) solutions",
+        "Completed an AI & ML Engineer internship at Jaseci Labs, contributing to Jac compiler development and improving software engineering skills.",
       years: "2024",
     },
     {
       id: 2,
-      position: "Mobile App Developer Intern",
-      company: "PAXXY - (Present)",
+      position: "Research Assistant Intern",
+      company: "2024 - 2025",
       location: "Sri Lanka",
       description:
-        "Contributing to the development of a front end portal of a MedTech wearable for Paxxy FMS LLC, a US startup.",
-      years: "2025",
-    },
-    {
-      id: 3,
-      position: "Software Engineering Intern",
-      company: "London Stock Exchange Group - (2024)",
-      location: "Sri Lanka",
-      description:
-        "Worked on projects involving cloud server load balancing, development of a full stack application for internal use, and a learning pipeline for code vulnerability detection.",
+        "Contributed to Visual Language Models (VLM) research at Jaseci Labs, focusing on model evaluation and prompt engineering to optimize large language model performance.",
       years: "2024",
     },
   ];
   const volunteeringData = [
     {
       id: 1,
-      position: "Batch Representative",
-      company: "Dept of ENTC, University of Moratuwa - (Sem 07/08)",
+      position: "EESoc Web Coordinator",
+      company: "Electrical Engineering Society (EESoc), University of Moratuwa (2023 - Present)",
       location: "Sri Lanka",
       description:
-        "Represented the batch in various departmental activities and events, ensuring effective communication between students and faculty.",
-      years: "2023",
+        "Worked on the society’s web presence by maintaining and updating content, supporting event pages, and enhancing digital outreach.",
+      years: "2023 - Present",
     },
     {
-      id: 2,
-      position: "Member",
-      company:
-        "Trincomalee District University Students' Association - (2021 - 2023)",
-      location: "Sri Lanka",
-      description:
-        "Participated in various community service projects and initiatives aimed at improving the lives of students in the Trincomalee district.",
-      years: "2023",
-    },
-    {
-      id: 4,
-      position: "Coordinator",
-      company:
-        "Instrumental Team, Tamil Literary Association, University of Moratuwa - (2022 - 2024)",
-      location: "Sri Lanka",
-      description:
-        "Organized and coordinated musical events and activities for the Tamil Literary Association, promoting Tamil culture and literature within the university community.",
-      years: "2023",
-    },
+    id: 2,
+    position: "Publicity Team Member - MoraForesight 2.0",
+    company: "IEEE Student Branch, University of Moratuwa - 2024",
+    location: "Sri Lanka",
+    description:
+      "Contributed to organizing and promoting MoraForesight 2.0 by handling event publicity, digital promotions, and outreach initiatives.",
+    years: "2024",
+  },
+  {
+    id: 3,
+    position: "Publicity Team Member",
+    company: "Mora Math Society - 2023",
+    location: "Sri Lanka",
+    description:
+      "Supported the publicity efforts for society events by designing promotional content and managing social media visibility.",
+    years: "2023",
+  },
+  {
+    id: 4,
+    position: "Technical Team Member - STEAMPillar",
+    company: "Sasnaka Sansada Foundation - (2021 - 2023)",
+    location: "Sri Lanka",
+    description:
+      "Provided ongoing technical support for STEAMPillar initiatives, including STEM education sessions, Remedial Teaching programs, and IT infrastructure support.",
+    years: "2021 - 2023",
+  },
   ];
 
   const publicationsData = [
     {
       id: 1,
-      title:
-        " DARB-Splatting: Generalizing Splatting with Decaying Anisotropic Radial Basis Functions",
+      title: "The Role of Edge Computing in Autonomous Vehicles",
       description:
-        "Submitted a research paper; Vishagar A., Nazar F.S., Pramuditha A.A.H., Viruthshaan V., Ramasinghe S., Lucey S. and Rodrigo R. (2024). DARB-Splatting,that generalizes splatting algorithms for 3D reconstruction, which is currently under review.",
-      presented: "ICCV 2023",
+        "Presented on the integration of sensing and communication technologies for enhanced data transmission and processing.",
+      // presented: "Spark Insight Magazine",
     },
     {
       id: 2,
-      title: "Integrated Sensing and Communications",
+      title:
+        " An Intelligent Helmet for Motorcycle Safety",
       description:
-        "Presented on the integration of sensing and communication technologies for enhanced data transmission and processing.",
-      presented: "E-Carrier Magazine",
+        "Submitted a research paper based on the Smart Helmet System project, highlighting the integration of IoT, AI, and sensor technologies to improve motorcycle safety in Sri Lanka.",
+      // presented: "",
     },
     {
       id: 3,
-      title: "Graph Signal Processing",
+      title: "Robot Arm for Handling Hazardous Liquids",
       description:
-        "Presented on the applications of graph signal processing in modern data analysis and machine learning.",
-      presented: "E-Carrier Magazine",
-    },
-    {
-      id: 4,
-      title: "Terahertz Communications",
-      description:
-        "Presented on the advancements and challenges in terahertz communication technologies.",
-      presented: "E-Carrier Magazine",
+        "Submitted a research paper detailing simulation and design work using MATLAB and SOLIDWORKS.",
+      // presented: "E-Carrier Magazine",
     },
   ];
 
@@ -165,58 +155,38 @@ export default function ResumeSection() {
       id: 0,
       title: "Dean's List",
       description:
-        "Semester 1, Semester 2, Semester 4, Semester 6, Semester 7.",
+        "Semester 3.",
     },
     {
-      id: 1,
-      title: "1st Runner Up",
-      description: "IDEALIZE 2023 by AIESEC at University of Moratuwa.",
-    },
-    {
-      id: 2,
-      title: "7th Place",
-      description:
-        "ACES Coders 2023, an islandwide hackathon organized by the University of Peradeniya.",
-    },
-    {
-      id: 3,
-      title: "9th Place",
-      description:
-        "ACES Coders 2022, an islandwide hackathon organized by the University of Peradeniya.",
-    },
-    {
-      id: 4,
-      title: "Globally Ranked 14th",
-      description: "IEEE VIP CUP 2023, Ophthalmic biomarker detection.",
-    },
-    {
-      id: 5,
-      title: "Finalist, Top 30 Teams Worldwide",
-      description: "IEEE IES Generative AI Hackathon, 2024.",
-    },
-    {
-      id: 6,
-      title: "Finalist",
-      description:
-        "Spark Challenge 22/23, detecting hypoglycaemic situations using NIR rays.",
-    },
-    {
-      id: 7,
-      title: "Finalist",
-      description:
-        "HackX 7.0, Atmospheric CO2 prediction using IR rays and GHz telecommunication.",
-    },
-    {
-      id: 8,
-      title: "Mahapola Higher Education Scholarship",
-      description:
-        "Awarded for outstanding academic performance in the G.C.E. A/L examination.",
-    },
-    {
-      id: 10,
-      title: "Merit",
-      description: "Codefest 2016, organized by SLIIT, School Category.",
-    },
+    id: 1,
+    title: "11th Place",
+    description:
+      "ACES Coders V10.0 (October 2023), an islandwide algorithmic coding competition organized by the University of Peradeniya.",
+  },
+  {
+    id: 2,
+    title: "6th Place",
+    description:
+      "ENIGMA 2024 (August 2023), a national-level competitive programming competition.",
+  },
+  {
+    id: 3,
+    title: "High Distinction Pass",
+    description:
+      "Australian National Chemistry Quiz 2019, awarded for outstanding performance in international chemistry assessment.",
+  },
+  {
+    id: 4,
+    title: "Mahapola Higher Education (Merit) Scholarship",
+    description:
+      "Awarded for exceptional academic performance in GCE A/L examination with an Island Rank of 238.",
+  },
+  {
+    id: 5,
+    title: "4th Place",
+    description:
+      "MECHA 2023, a Med-Tech Hackathon organized by the Faculty of Medicine, University of Colombo, focusing on innovative medical device and application development.",
+  },
   ];
 
   const tabs = [

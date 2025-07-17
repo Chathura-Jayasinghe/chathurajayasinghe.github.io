@@ -6,10 +6,10 @@ export default function Footer() {
       {/* Left side - Policy links */}
       <div className="flex space-x-4">
         <a
-          href="https://github.com/noorjsdivs/youtubeportfolio.git"
+          // href="https://github.com/noorjsdivs/youtubeportfolio.git"
           className="text-sm hover:underline"
         >
-          Inspired from @noorjsdivs/youtubeportfolio
+          Chathura Jayasinghe
         </a>
       </div>
 

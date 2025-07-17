@@ -74,9 +74,9 @@ const Home = () => {
 
   const phrases = [
     "Electrical Engineering Student ",
-    "a Full Stack Developer ",
-    "a Machine Learning Enthusiast ",
-    "a Musician ",
+    "Full Stack Developer ",
+    "Machine Learning Enthusiast ",
+    "Musician ",
   ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);

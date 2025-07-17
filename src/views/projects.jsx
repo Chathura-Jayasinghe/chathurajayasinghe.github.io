@@ -39,47 +39,55 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      title: "DARBFs-ICCV 2025(under review)",
-      year: 2025,
-      image: "/projects/darbfs.png",
+      title: "Smart Helmet - Integrated Safety System for Helmets",
+      year: 2024,
+      image: "/projects/smart_helmet.png",
       description:
-        "A 3D reconstruction pipeline leveraging decaying anisotropic radial basis functions (DARBFs) as a generalization of Gaussian splatting. Achieved up to 34% faster training and 15% lower memory usage while preserving reconstruction quality (PSNR, SSIM, LPIPS).",
-      github: "https://github.com/viruthshaan/darb-splatting",
-      liveDemo: "https://randomnerds.github.io/darbs.github.io/",
-      tags: ["ICCV 2025", "Computer Vision", "Research"],
+        "A cost-effective smart helmet system integrating sensors, YOLOv5, and IoT technologies for motorcycle safety through alcohol detection, impact alerts, and traffic sign recognition.",
+      github: "https://github.com/Chathura-Jayasinghe/Smart-Helmet",
+      // liveDemo: "https://github.com/Chathura-Jayasinghe/Smart-Helmet",
+      tags: [
+        "IoT",
+        "YOLOv5",
+        "Arduino",
+        "Labview",
+        "Raspberry Pi",
+        "ComputerVision",
+      ],
     },
     {
       id: 2,
-      title: "SPLATVISTA-WebGL 3DGS Viewer",
-      year: "Ongoing",
-      image: "/projects/splatvista.png",
+      title: "HealthLink - AI-Powered Tumor Detection",
+      year: 2023,
+      image: "/projects/healthlink.jpg",
       description:
-        " A WebGL-based virtual tour platform using Gaussian Splatting for real-time 3D scene exploration. Enables immersive navigation and interactive transitions between photorealistic environments.",
-      github: "https://github.com/Vgr20/ThreeJS_Splatting",
-      liveDemo: "https://github.com/Vgr20/ThreeJS_Splatting",
-      tags: ["WebGL", "React"],
+        " HealthLink is a web-based AI-powered application that detects brain tumors from MRI scans, enabling secure image uploads, expert consultations, and patient-doctor interaction.",
+      github:
+        "https://github.com/Chathura-Jayasinghe/HealthLink?tab=readme-ov-file",
+      // liveDemo: "https://github.com/Vgr20/ThreeJS_Splatting",
+      tags: ["Flask", "TensorFlow", "OpenCV", "Python", "ML"],
     },
     {
       id: 3,
-      title: "Cosmo Cruise - WebGL FPS Game",
+      title: "Medibox",
       year: 2024,
-      image: "/projects/cosmo_cruise.png",
+      image: "/projects/medibox.png",
       description:
-        "A WebGL-based third-person space adventure game that integrates real-life energy management strategies into gameplay for an educational yet immersive experience",
-      github: "https://github.com/EnergySquad/Phase03_Game",
-      liveDemo: "https://github.com/EnergySquad/Phase03_Game",
-      tags: ["WebGL", "Unity"],
+        "A smart medicine box simulation using ESP32 with sensors, servo control, and MQTT-based Node-RED integration for remote medication management.",
+      github: "https://github.com/Chathura-Jayasinghe/ESP32-Medibox",
+      // liveDemo: "https://github.com/EnergySquad/Phase03_Game",
+      tags: ["ESP32", "IoT", "C++", "MQTT", "Node-RED", "Wokwi"],
     },
     {
       id: 4,
-      title: "GoGetOn-Mobile Task Manager",
-      year: 2023,
-      image: "/projects/gogeton.png",
+      title: "Library-Management-System",
+      year: 2025,
+      image: "/projects/library.png",
       description:
-        "“GoGetOn”, a productivity mobile application with AI features to convert your distant dream of being productive into a convenient choice. ",
-      github: "https://github.com/Vgr20/DOit/tree/UpDateReadMe",
-      liveDemo: "https://github.com/Amrithshagar/GoGetOn-Backend",
-      tags: ["React Native"],
+        "A Library Management System implemented using Python and Jac, featuring book and member management, issue/return workflows, and intelligent automation.",
+      github: "https://github.com/Chathura-Jayasinghe/Library-Management-System",
+      // liveDemo: "https://github.com/Amrithshagar/GoGetOn-Backend",
+      tags: ["Python", "Jaclang", "Flask", "Streamlit"],
     },
     {
       id: 5,
@@ -88,32 +96,33 @@ const Projects = () => {
       image: "/projects/portfolio.png",
       description:
         "A responsive personal portfolio website showcasing skills, projects, and contact information using React and Tailwind CSS (this site!).",
-      github: "https://github.com/Vgr20/vgr20.github.io",
-      liveDemo: "https://example.com",
+      github:
+        "https://github.com/Chathura-Jayasinghe/chathurajayasinghe.github.io",
+      // liveDemo: "https://github.com/Chathura-Jayasinghe/chathurajayasinghe.github.io",
       tags: ["React", "Tailwind CSS"],
     },
     {
       id: 6,
-      title: "KeyBay-Online Marketplace",
-      year: 2022,
-      image: "/projects/keybay.png",
+      title: "Tourist-guide-application in Jaclang",
+      year: 2025,
+      image: "/projects/tourist_guild.png",
       description:
-        "A prototype for an online marketplace platform featuring product listings, search and filter functionality, secure checkout, and user account management, designed for a smooth and scalable e-commerce experience.",
-      github: "https://github.com/Vgr20/KeyBay",
-      liveDemo: "https://github.com/Vgr20/KeyBay",
-      tags: ["Java", "Java Swing"],
+        "A graph-based travel planner built in Jac Language that lets users explore Sri Lankan cities interactively based on their daily travel distance limits.",
+      github: "https://github.com/Chathura-Jayasinghe/Tourist-guide-application",
+      // liveDemo: "https://github.com/Vgr20/KeyBay",
+      tags: ["Jaclang", "Data Spatial Programming"],
     },
     {
       id: 7,
-      title: "KOP - Own Music Composition",
+      title: "Virtual-Math-Solver",
       year: 2024,
       image: "/projects/kop.jpeg",
       description:
-        "A soulful love track, captivating the emotions of human life. An original song fully composed, arranged, and produced by me",
-      github: "https://www.youtube.com/@stavemusicalcrew2495",
-      liveDemo:
-        "https://www.youtube.com/watch?v=fNJUb6_OiGQ&ab_channel=STAVEMusicalCrew",
-      tags: ["Music", "Composition"],
+        "An AI-powered virtual math solver that uses OpenCV and hand gesture recognition to interpret and solve math problems via a webcam-based Streamlit interface.",
+      github: "https://github.com/Chathura-Jayasinghe/Virtual-Math-Solver",
+      // liveDemo:
+      //   "https://www.youtube.com/watch?v=fNJUb6_OiGQ&ab_channel=STAVEMusicalCrew",
+      tags: ["Python", "OpenCV", "Streamlit"],
     },
     {
       id: 8,
@@ -123,7 +132,7 @@ const Projects = () => {
       description:
         "A catchy track. Engineered the mixing and mastering of this track, enhancing clarity, balance, and dynamics for a polished, professional sound.",
       github: "https://www.youtube.com/@ATScreation_official",
-      liveDemo: "https://youtu.be/y7qcyw55io8?feature=shared",
+      // liveDemo: "https://youtu.be/y7qcyw55io8?feature=shared",
       tags: ["Music", "Mixing", "Mastering"],
     },
   ];
@@ -214,30 +223,28 @@ const ProjectCard = ({ project, delay = 0 }) => {
           <FaGithub className="text-white" />
         </a>
 
-        <a
+        {/* <a
           href={project.liveDemo}
           target="_blank"
           rel="noopener noreferrer"
           className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors"
         >
           <FaGlobe className="text-white" />
-        </a>
+        </a> */}
       </div>
 
       {/* Project Description */}
       <p className="text-gray-300 px-6 pb-6 text-sm">{project.description}</p>
       {/* Tags */}
-      <div className="flex flex-wrap px-6 pb-6 space-x-2">
-        <span className="s">
-          {project.tags.map((tag) => (
-            <span
-              key={tag}
-              className="bg-teal-700 text-gray-300 text-xs font-semibold px-2 py-1 rounded-md mr-2 mb-2 hover:bg-rose-600 transition-colors"
-            >
-              {tag}
-            </span>
-          ))}
-        </span>
+      <div className="flex flex-wrap px-6 pb-6 gap-2">
+        {project.tags.map((tag) => (
+          <span
+            key={tag}
+            className="bg-teal-700 text-gray-300 text-xs font-semibold px-2 py-1 rounded-md hover:bg-rose-600 transition-colors"
+          >
+            {tag}
+          </span>
+        ))}
       </div>
     </div>
   );
